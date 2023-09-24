@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Architects Daughter';
+    font-family: inherit;
+}
+body{
+    background-color: rgba(198,140,83, 0.6);
+}
+.create-button{
+    width:100px;
+    height:50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(80, 235, 249);
+    font-size: 18px;
+    box-shadow:2px 3px 3px 2px rgba(0,0,0, 0.4);
+}
+.main-container{
+    width:95%;
+}
+.container1{
+    margin-left:5%;
+
+}
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.container3{
+    /* display: none; */
+    position: absolute;
+    top: 26%;
+    left:40%;
+
+}
+textarea{
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.7);
+    outline:none;
+    border:0;
+    width:275px;
+    height:275px;
+    padding:40px 25px 25px 25px;
+}
+svg{
+    color:purple;
+}
+#check-icon{
+    position: absolute;
+    right:12%;
+    top:4%;
+} 
+#x-icon{
+    position:absolute;
+    right:3%;
+    top:4%;
+}
